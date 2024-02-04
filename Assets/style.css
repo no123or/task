@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* -------------------Header Styling-------------------- */
+header{
+    background-color: black;
+    color: white;
+    padding: 50px 150px 50px 150px;
+}
+h2{
+    font-size: 3.3rem;
+    text-align: left;
+    text-transform: capitalize;
+    padding-bottom: 15px ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.nav-item{
+    margin-right: 30px;
+}
+/* -------------------Header Styling Ended----------------------- */
+section{
+    padding: 60px 150px 0px 150px;
+}
+.container-section{
+    display: flex;
+    flex-direction: row;
+    color: rgb(60, 59, 59);
+}
+.section-item{
+    padding-right: 40px;
+}
+h1{
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 2.5rem;
+    padding: 20px 0 20px 0;
+}
+p{
+    margin-bottom:30px ;
+    text-align: justify;
+}
